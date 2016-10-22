@@ -1,0 +1,32 @@
+{
+  "name": "bower init portfolio-js",
+  "authors": [
+    "FAVIO VELEZ <favio.velez@hotmail.com>"
+  ],
+  "description": "Desafío Latam 2nd Test",
+  "main": "index.html",
+  "keywords": [
+    "JS",
+    "HTML5",
+    "CSS3",
+    "BOOTSTRAP"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "masonry": "desandro/masonry#^4.1.1",
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "normalize-css": "^5.0.0"
+  }
+}

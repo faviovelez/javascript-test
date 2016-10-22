@@ -1,0 +1,42 @@
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", Arial, Verdana;
+  font-size: 16px; }
+
+h2 {
+  font-family: "Ubuntu";
+  font-size: 32px; }
+
+.container h1,
+.container p {
+  color: #fff; }
+
+.jumbo-text {
+  margin-top: 18%; }
+
+.btn-transparent,
+.btn-primary {
+  background: #000;
+  opacity: .5;
+  border: none; }
+
+.jumbotron {
+  background-image: url("https://hd.unsplash.com/photo-1435163570436-d7c1dee361c4");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh; }
+
+.navbar {
+  margin-bottom: 0;
+  background: transparent;
+  border-bottom: 0;
+  font-size: 20.8px; }
+
+.navbar-brand {
+  font-size: 24px; }
+
+/*# sourceMappingURL=main.css.map */
