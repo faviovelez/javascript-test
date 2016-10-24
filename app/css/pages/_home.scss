@@ -1,0 +1,73 @@
+.about-me {
+	height: auto;
+}
+
+.about-me--title,
+.about-me--description {
+	text-align: center;
+}
+
+.about-me--description {
+	padding-bottom: $padding;
+}
+
+.quotes--container {
+	padding-bottom: $padding*2.5;
+}
+
+.quote--one,
+.quote--two {
+	border: 1.5px solid lightgray;
+	border-radius: 1.5rem;
+	padding-bottom:$padding;
+	font-style: italic;
+	margin-bottom: $margin*5;
+	height: auto;
+}
+
+.quote-btn-one {	
+}
+
+section#about-me-section {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.quotes--title {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.quotes {
+	margin-top: $margin;
+}
+
+.thumbnail {
+  border-radius: $rounded;
+  padding: $smallPadding; 
+}
+
+.thumbnail img {
+  border-radius: $rounded; 
+}
+
+a.btn.btn-primary.btn-lg.btn-transparent:hover {
+	background: $color2;
+	opacity: .75;
+	border:none;
+	color: $color;
+}
+
+a.btn.btn-primary.btn-lg.btn-transparent:active {
+	background: $color2;
+	opacity: .65;
+	border:none;
+	color: $color;
+}
+
+a.btn.btn-primary.btn-lg.btn-transparent:visited {
+	background: $color2;
+	opacity: .60;
+	border:none;
+	color: $color;
+}

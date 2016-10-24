@@ -27,24 +27,89 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item"><a href="#">About me</a></li>
-        <li class="nav-item"><a href="#">Find more</a></li>
-        <li class="nav-item"><a href="#">Contact</a></li>
+        <li class="nav-item"><a href="#about-me--section" id="about-nav">About me</a></li>
+        <li class="nav-item"><a href="#expertise" id="expertise-nav">Expertise</a></li>
+        <li class="nav-item"><a href="#quote" id="quote-nav">Quotes</a></li>
+        <li class="nav-item">
+        	<a href="" id="es"><img src="img/Hopstarter-Flag-Borderless-Mexico.ico" alt="Mexican Flag"></a>
+        	</li>
+        <li class="nav-item">
+        	<a href="" id="en"><img src="img/Hopstarter-Flag-Borderless-United-States.ico" alt="United States Flag"></a>
+      	</li>
       </ul>
     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+  </div><!-- /.container -->
 </nav>
 <!-- End of Navigation -->
 
-<!-- Begin of Jumbotron -->
+<!-- Header section -->
 <div class="jumbotron">
   <div class="container jumbo-text">
-	  <h1>Join the technology revolution</h1>
-	  <p>Find better tools for your business and boost your sales. We will help you double your customers loyalty.</p>
-	  <p><a class="btn btn-primary btn-lg btn-transparent" href="#" role="button" data-toggle="modal" data-target="#myModal">Learn more</a></p>
+	  <h1 class="call-to-action">Join the technology revolution</h1>
+	  <p class="description-to-action">Take advantage of online tools to boost your sales. I will help you increase your customer base and loyalty.</p>
+	  <p><a class="btn btn-primary btn-lg btn-transparent" href="#" id="find-more" role="button" data-toggle="modal" data-target="#myModal">Find more</a></p>
   </div>
 </div>
-<!-- End of Jumbotron -->
+<!-- End of Header section -->
+
+<!-- About me section -->
+<section id="about-me--section" class="about-me container">
+	<h2 class="about-me--title">About me</h2>
+	<p class="about-me--description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas repudiandae, iusto nam velit laboriosam dicta error, ratione inventore consequatur ullam architecto unde sapiente modi rerum</p>
+</section>
+<!-- End of About me  -->
+
+<!--Areas of expertise section-->
+<div id="expertise" class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h2 class="thumbnail--title title">Areas of expertise</h2>	
+		</div>
+	</div>
+	  <div class="col-sm-6 col-md-4">
+	    <div class="thumbnail">
+	      <img src="https://hd.unsplash.com/photo-1430760903787-4d91bbf15384" alt="Macbook and Wacom picture">
+	      <div class="caption">
+	        <h3>The best designer team</h3>
+	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, culpa quas consequuntur nesciunt unde, blanditiis mollitia neque delectus praesentium voluptatem rerum excepturi enim dicta magnam commodi pariatur. Voluptatum, aliquam, excepturi.</p>
+	        <p><a href="#" class="btn btn-primary" role="button">Learn more</a></p>
+	      </div>
+	    </div>
+	  </div>
+    <div class="col-sm-6 col-md-4">
+	    <div class="thumbnail">
+	      <img src="https://hd.unsplash.com/1/bag-and-hands.jpg" alt="Working on a table picture">
+	      <div class="caption">
+	        <h3>Consultancy services</h3>
+	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam molestias reiciendis eaque accusantium rerum, voluptatem enim	, omnis ipsam labore facere dolorum adipisci nesciunt aliquid corporis expedita ipsum deserunt dolor. Similique.</p>
+	        <p><a href="#" class="btn btn-primary" role="button">Learn more</a></p>
+	      </div>
+	    </div>
+	  </div>
+    <div class="col-sm-6 col-md-4">
+	    <div class="thumbnail">
+	      <img src="https://hd.unsplash.com/photo-1421757381940-5d269570b21c" alt="iPad and MacBook picture">
+	      <div class="caption">
+	        <h3>Awesome tech team</h3>
+	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dicta dolores pariatur doloribus culpa quis esse, optio beatae molestias. At minus fugit voluptas quae, impedit, soluta et ratione doloremque voluptatibus!</p>
+	        <p><a href="#" class="btn btn-primary" role="button">Learn more</a></p>
+	      </div>
+	    </div>
+	  </div>
+</div>
+<!--End of Areas of expertise section-->
+
+<!-- Quote section  -->
+<section id="quote" class="quotes--container">
+	<h2 class="quotes--title">My favorite quotes</h2>
+	<div class="quote--one col-md-10 col-md-offset-1 col-xs-12">	
+		<p class="quotes">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad odio, ratione minima ipsum debitis sint qui! Vero, facilis alias co, eaque nostrum iste voluptatem? Neque, ut tenetur. At, fuga.</p>
+		<a href="" class="btn btn-primary btn-transparent quote-btn-one">See another quote</a>
+</div>
+</section>
+
+<!-- End of Quote section  -->
+
 
 	<script src="lib/jquery/dist/jquery.min.js"></script>
 	<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>

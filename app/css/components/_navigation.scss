@@ -8,3 +8,11 @@
 .navbar-brand {
 	font-size: $font-size * 1.5;
 }
+
+#en img,
+#es img {
+	height:$height;
+	display:inline-block;
+	margin: $imgMarginAndPadding;
+	padding: $imgMarginAndPadding;
+}
