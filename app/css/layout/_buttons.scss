@@ -1,0 +1,52 @@
+// Just content buttons, modal buttons are in modal.scss //
+
+.btn-transparent,
+.btn-primary {
+	background: $color2;
+	opacity: .5;
+	border:none;
+	color: $color;
+}
+
+a.btn.btn-primary.btn-lg.btn-transparent:hover,
+a.btn.btn-primary.btn-transparent.quote-btn-one:hover,
+a.btn.btn-primary:hover,
+p.theme-changer-btn.btn.btn-primary.btn-transparent:hover,
+p.theme-restore-btn.btn.btn-primary.btn-transparent:hover {
+	background: $color2;
+	opacity: .75;
+}
+
+a.btn.btn-primary.btn-lg.btn-transparent:active,
+a.btn.btn-primary.btn-transparent.quote-btn-one:active,
+a.btn.btn-primary:active,
+p.theme-changer-btn.btn.btn-primary.btn-transparent:active,
+p.theme-restore-btn.btn.btn-primary.btn-transparent:active {
+	background: $color2;
+	opacity: .65;
+}
+
+a.btn.btn-primary.btn-lg.btn-transparent:visited,
+a.btn.btn-primary.btn-transparent.quote-btn-one:visited,
+a.btn.btn-primary:visited,
+p.theme-changer-btn.btn.btn-primary.btn-transparent:visited,
+p.theme-restore-btn.btn.btn-primary.btn-transparent:visited {
+	background: $color2;
+	opacity: .60;
+}
+
+a.btn.btn-primary.btn-transparent.quote-btn-one {
+	margin-top: 1.5rem;
+}
+
+a.btn.btn-primary.btn-transparent.quote-btn-two {
+	margin-top: 1.5rem;	
+}
+
+.theme-changer-btn,
+.theme-restore-btn {
+	display:inline-block;
+	margin-bottom: 4rem;
+	cursor: pointer;
+	margin-left: 4rem;
+}

@@ -4,12 +4,15 @@
 	<meta charset="UTF-8">
 	<title>Portafolio Favio Velez</title>
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
 	<link rel="stylesheet" href="lib/normalize-css/normalize.css">
 	<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/lib/animate.css/animate.min.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	
+
+
 	<!-- Begin of Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -21,7 +24,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Favio</a>
+      <a class="navbar-brand" href="#favio" id="favio-nav">Favio</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -42,37 +45,39 @@
 </nav>
 <!-- End of Navigation -->
 
+
 <!-- Header section -->
-<div class="jumbotron">
+<div class="jumbotron" id="favio">
   <div class="container jumbo-text">
-	  <h1 class="call-to-action">Join the technology revolution</h1>
-	  <p class="description-to-action">Take advantage of online tools to boost your sales. I will help you increase your customer base and loyalty.</p>
+	  <h1 class="call-to-action animated slideInLeft">Join the technology revolution</h1>
+	  <p class="description-to-action animated slideInLeft">Take advantage of online tools to boost your sales. I will help you increase your customer base and loyalty.</p>
 	  <p><a class="btn btn-primary btn-lg btn-transparent" href="#" id="find-more" role="button" data-toggle="modal" data-target="#myModal">Find more</a></p>
   </div>
 </div>
 <!-- End of Header section -->
 
+
 <!-- About me section -->
-<section id="about-me--section" class="about-me container">
+<section id="about-me--section" class="about-me">
 	<h2 class="about-me--title">About me</h2>
-	<p class="about-me--description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas repudiandae, iusto nam velit laboriosam dicta error, ratione inventore consequatur ullam architecto unde sapiente modi rerum</p>
+	<p class="about-me--description col-md-8 col-xs-10 col-xs-offset-1 col-md-offset-2">I'm an independent Marketing professional with a strong believe that any company can increase their customer base and profits making small but powerful changes in their processes and Marketing strategies. I can Help your business to grow steadily.</p>
 </section>
 <!-- End of About me  -->
+
 
 <!--Areas of expertise section-->
 <div id="expertise" class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<h2 class="thumbnail--title title">Areas of expertise</h2>	
+			<h2 class="thumbnail--title expertise--title title">Areas of expertise</h2>	
 		</div>
 	</div>
 	  <div class="col-sm-6 col-md-4">
 	    <div class="thumbnail">
 	      <img src="https://hd.unsplash.com/photo-1430760903787-4d91bbf15384" alt="Macbook and Wacom picture">
 	      <div class="caption">
-	        <h3>The best designer team</h3>
+	        <h3 class="mkt">Marketing Strategy</h3>
 	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, culpa quas consequuntur nesciunt unde, blanditiis mollitia neque delectus praesentium voluptatem rerum excepturi enim dicta magnam commodi pariatur. Voluptatum, aliquam, excepturi.</p>
-	        <p><a href="#" class="btn btn-primary" role="button">Learn more</a></p>
 	      </div>
 	    </div>
 	  </div>
@@ -80,9 +85,8 @@
 	    <div class="thumbnail">
 	      <img src="https://hd.unsplash.com/1/bag-and-hands.jpg" alt="Working on a table picture">
 	      <div class="caption">
-	        <h3>Consultancy services</h3>
+	        <h3 class="sales">Sales Management</h3>
 	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam molestias reiciendis eaque accusantium rerum, voluptatem enim	, omnis ipsam labore facere dolorum adipisci nesciunt aliquid corporis expedita ipsum deserunt dolor. Similique.</p>
-	        <p><a href="#" class="btn btn-primary" role="button">Learn more</a></p>
 	      </div>
 	    </div>
 	  </div>
@@ -90,26 +94,50 @@
 	    <div class="thumbnail">
 	      <img src="https://hd.unsplash.com/photo-1421757381940-5d269570b21c" alt="iPad and MacBook picture">
 	      <div class="caption">
-	        <h3>Awesome tech team</h3>
+	        <h3 class="business">Business Modeling</h3>
 	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dicta dolores pariatur doloribus culpa quis esse, optio beatae molestias. At minus fugit voluptas quae, impedit, soluta et ratione doloremque voluptatibus!</p>
-	        <p><a href="#" class="btn btn-primary" role="button">Learn more</a></p>
 	      </div>
 	    </div>
 	  </div>
 </div>
 <!--End of Areas of expertise section-->
 
-<!-- Quote section  -->
+
+<!-- Quotes section  -->
 <section id="quote" class="quotes--container">
 	<h2 class="quotes--title">My favorite quotes</h2>
 	<div class="quote--one col-md-10 col-md-offset-1 col-xs-12">	
-		<p class="quotes">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad odio, ratione minima ipsum debitis sint qui! Vero, facilis alias co, eaque nostrum iste voluptatem? Neque, ut tenetur. At, fuga.</p>
+		<p class="quotes quote-initial" id="initial-quote">"The future belongs to those who believe in the beauty of their dreams."</p>
+		<span> Eleanor Roosevelt.</span>
+		<br>
 		<a href="" class="btn btn-primary btn-transparent quote-btn-one">See another quote</a>
-</div>
+	</div>
 </section>
+<!-- End of Quotes section  -->
 
-<!-- End of Quote section  -->
 
+<!-- Begin of Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Want to find more?</h4>
+      </div>
+      <div class="modal-body">
+ 	     <iframe width="560" height="315" src="https://www.youtube.com/embed/cVC3DQvAAIA" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" type="button" data-dismiss="modal" aria-label="Close">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of Modal -->
+
+<div class="container col-md-10 col-md-offset-1 col-xs-10 theme-container">
+	<p class="theme-changer-btn btn btn-primary btn-transparent">Change theme</p>
+	<p class="theme-restore-btn btn btn-primary btn-transparent">Restore theme</p>
+</div>
 
 	<script src="lib/jquery/dist/jquery.min.js"></script>
 	<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
