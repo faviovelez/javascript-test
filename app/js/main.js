@@ -32,6 +32,11 @@ $('document').ready(function() {
 	var themeChanger = $('.theme-changer-btn');
 	var scrollPosition = 0;
 	var themeRestore = $('.theme-restore-btn');
+	var navOne = $('a#about-nav');
+	var navTwo = $('a#expertise-nav');
+	var navThree = $('a#quote-nav');
+	var navFavio = $('a#favio-nav')
+	var navBar = $('.navbar');
 	console.log('hello world');
 	console.log(translated);
 
@@ -180,6 +185,28 @@ $('document').ready(function() {
 	favio.click(function() {   
 		$('body').animate({ scrollTop: 0}, 'slow');
 	}); 
+	
+	$(document).scroll(function(){
+		scrollPosition = $(this).scrollTop();
+		if(scrollPosition > 100){
+			navBar.addClass("nav-background");
+			navOne.css("color","#fff");
+			navTwo.css("color","#fff");
+			navThree.css("color","#fff");
+			navFavio.css("color","#fff");
+
+		}
+		else {
+			navBar.removeClass("nav-background");
+			navOne.css("color","#333");
+			navTwo.css("color","#333");
+			navThree.css("color","#333");
+			navFavio.css("color","#333");
+			navBar.css({
+				'transition':'.5s all ease-out'
+			});
+		}
+	});
 
 	themeChanger.click(function() {
 		event.preventDefault();

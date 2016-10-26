@@ -118,6 +118,17 @@ span {
 	background: #000;
 }
 
+.nav-background {
+	background-color: #548687;
+	color: #fff;
+	opacity: .5;
+	-webkit-transition: .5s all ease-in;
+	-moz-transition: .5s all ease-in;
+	-ms-transition: .5s all ease-in;
+	transition: .5s all ease-in;
+	box-shadow: 1px 1px 4px #eee;
+}
+
 @media only screen and (max-width: 985px) {
 	.call-to-action {
 		font-size: 5.5rem;
