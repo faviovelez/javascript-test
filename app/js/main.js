@@ -198,10 +198,10 @@ $('document').ready(function() {
 		}
 		else {
 			navBar.removeClass("nav-background");
-			navOne.css("color","#333");
-			navTwo.css("color","#333");
-			navThree.css("color","#333");
-			navFavio.css("color","#333");
+			navOne.css("color","#777");
+			navTwo.css("color","#777");
+			navThree.css("color","#777");
+			navFavio.css("color","#777");
 			navBar.css({
 				'transition':'.5s all ease-out'
 			});
